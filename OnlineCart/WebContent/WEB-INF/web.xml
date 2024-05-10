@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	
+	<servlet>
+		<servlet-name>Products</servlet-name>
+		<servlet-class>Store.ProductServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Products</servlet-name>
+		<url-pattern>/Products</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Categories</servlet-name>
+		<servlet-class>Store.CategoryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Categories</servlet-name>
+		<url-pattern>/Category</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CategoriesList</servlet-name>
+		<servlet-class>Store.CategoryListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CategoriesList</servlet-name>
+		<url-pattern>/CategoryList</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ToCart</servlet-name>
+		<servlet-class>Store.ToCartServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ToCart</servlet-name>
+		<url-pattern>/ToCart</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Cart</servlet-name>
+		<servlet-class>Store.CartServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Cart</servlet-name>
+		<url-pattern>/CartDetailsList</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RemoveCart</servlet-name>
+		<servlet-class>Store.RemoveCartServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RemoveCart</servlet-name>
+		<url-pattern>/RemoveCartItem</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CheckoutPage</servlet-name>
+		<servlet-class>Store.CheckoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CheckoutPage</servlet-name>
+		<url-pattern>/Checkout</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Signup</servlet-name>
+		<servlet-class>Store.SignupServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Signup</servlet-name>
+		<url-pattern>/Signup</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>Store.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Order</servlet-name>
+		<servlet-class>Store.OrderServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Order</servlet-name>
+		<url-pattern>/Order</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Regions</servlet-name>
+		<servlet-class>Store.ServiceServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Regions</servlet-name>
+		<url-pattern>/Services</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
